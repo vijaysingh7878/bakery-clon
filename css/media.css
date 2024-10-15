@@ -1,0 +1,341 @@
+
+@media only screen and (min-width:992px) and (max-width:1170px){
+    .header{
+    max-width: 900px;
+    margin: auto;
+    }
+    header{
+        width: 900px;
+    }
+    .headline{
+    width: 800px;
+    margin: 150px auto;
+    }
+    .about-img{
+        position: static;
+        width: 40%;
+    }
+     .serve-container{
+        flex-direction: column;
+     }
+     .weBaked{
+        max-width: 100%;
+    }
+    .categoryImage{
+        max-width: 900px;
+        margin: auto;
+    }
+    .videoPart{
+        max-width: 100%;
+    }
+    .videoPart .weBaked{
+        max-width: 100%;
+     }
+     
+     .videoPart>div {
+        max-width: 50%;
+     }
+     .slider {
+        max-width: 85%;
+        margin: auto;
+
+      }
+      .slider div {
+        max-width: 40%;
+       margin: auto;
+      }
+     .blogContainer{
+        margin: auto;
+        max-width: 900px;
+     }
+     .blogFood{
+        max-width: 90vw;
+        display: flex;
+        gap: 25px;
+     }
+     .food{
+        max-width: 31%;
+     }
+     .food img{
+        max-width: 100%;
+     }
+     .topFooter{
+        max-width: 80%;
+        margin: auto;
+        display: flex;
+        gap: 25px;
+     }
+     .aboutUs input{
+      min-width: 60%;
+    }
+    .copyright{
+        max-width: 80%;
+        margin: auto;
+    }
+}
+@media only screen and (min-width:767px) and (max-width:991px){
+    .header{
+        max-width: 700px;
+    margin: auto;
+    }
+    header{
+        width: 700px;
+    }
+    .headline{
+       width: 700px;
+        margin: 110px auto;
+    }
+    .headline ul li h1{
+        font-size: 55px;
+    }
+    .serve-container{
+        flex-direction: column;
+     }
+    .about-img{
+        position: static;
+        width: 40%;
+    }
+    .weBaked{
+        max-width: 100%;
+    }
+    .categoryImage{
+        max-width: 700px;
+        margin: auto;
+    }
+    .imageDetails{
+        max-width: 49%;
+    }
+    .videoPart{
+        max-width: 100%;
+    }
+    .videoPart div{
+        max-width: 100%;
+     }
+     .slider {
+        max-width: 90%;
+        margin: auto;
+      }
+      .slider div {
+        max-width: 40%;
+       margin: auto;
+      }
+     .blogFood{
+        max-width: 90vw;
+        margin: auto;
+        display: flex;
+        gap: 25px;
+     }
+     .food{
+        max-width: 31%;
+     }
+     .food img{
+        max-width: 100%;
+     }
+     .blogContainer .mainContainer>ul>li:nth-child(2){
+        max-width: 85%;
+        margin: auto;
+    }
+     .topFooter{
+        max-width: 80%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+     }
+     .aboutUs{
+        max-width: 46%;
+     }
+     .aboutUs input{
+      min-width: 85%;
+    }
+    .copyright{
+        max-width: 80%;
+        margin: auto;
+    }
+
+}
+@media only screen and (min-width:500px) and (max-width:766px){
+    header{
+        width: 100vw;
+    }
+    .top-header{
+        display: none;
+    }
+    .pc-device-active{
+        display: none;
+    }
+    .nav-bar-icon{
+        display: block;
+    }
+    .mobile-device-active{
+        display: block;
+    }
+    .headline{
+        width: 400px;
+    margin: 90px auto;
+    }
+    .headline ul li h1{
+        font-size: 40px;
+    }
+    .about-img img{
+        display: none;
+    }
+    .weBaked{
+        max-width: 100%;
+    }
+    .imageDetails{
+        max-width: 98%;
+        margin: auto;
+    }
+    .videoPart{
+        max-width: 100%;
+    }
+    .videoPart .weBaked{
+        max-width: 100%;
+     }
+     .videoPart>div {
+        max-width: 100%;
+     }
+     .slider {
+        max-width: 90%;
+        margin: auto;
+        flex-direction: column;
+      }
+      .slider div {
+        max-width: 80%;
+       margin: auto;
+      }
+      .slider>div:last-child{
+        display: none;
+      }
+     .blogFood{
+        max-width: 59vw;
+        margin: auto;
+        flex-direction: column;
+        /* gap: 25px; */
+     }
+     .food{
+        min-width: 79%;
+        margin: auto;
+     }
+     .food img{
+        max-width: 100%;
+     }
+     .blogContainer .mainContainer>ul>li:nth-child(2){
+        max-width: 54%;
+        margin: auto;
+    }
+     .user{
+        /* max-width: 100%; */
+     }
+     .topFooter{
+        max-width: 80%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+     }
+     .aboutUs{
+        min-width: 90%;
+     }
+     .aboutUs input{
+      min-width: 80%;
+    }
+    .copyright{
+        max-width: 80%;
+        margin: auto;
+    }
+    }
+
+@media only screen and (min-width:300px) and (max-width:499px){  
+    header{
+        width: 100vw;
+    }
+    .top-header{
+        display: none;
+    }
+    .pc-device-active{
+        display: none;
+    }
+    .nav-bar-icon{
+        display: block;
+    }
+    .mobile-device-active{
+        display: block;
+    }
+    .headline{
+     width: 250px;
+    margin: 90px auto;
+    }
+    .headline ul li h1{
+        font-size: 21px;
+    }
+    .about-img img{
+        display: none;
+    }
+    .weBaked{
+        max-width: 100%;
+    }
+    .imageDetails{
+        max-width: 98%;
+        margin: auto;
+    }
+    .videoPart{
+        max-width: 100%;
+    }
+    .videoPart .weBaked{
+        max-width: 100%;
+     }
+     
+     .videoPart>div {
+        max-width: 100%;
+     }
+     .slider {
+        max-width: 90%;
+        margin: auto;
+        flex-direction: column;
+      }
+      .slider div {
+        max-width: 80%;
+       margin: auto;
+      }
+      .slider>div:last-child{
+        display: none;
+      }
+      .blogFood{
+        max-width: 90vw;
+        margin: auto;
+        flex-direction: column;
+        /* gap: 25px; */
+     }
+     .food{
+        min-width: 79%;
+        margin: auto;
+     }
+     .food img{
+        max-width: 100%;
+     }
+     .blogContainer .mainContainer>ul>li:nth-child(2){
+        max-width: 85%;
+        margin: auto;
+    }
+     .topFooter{
+        max-width: 80%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+     }
+     .aboutUs{
+        min-width: 90%;
+     }
+     .aboutUs input{
+      min-width: 80%;
+    }
+    .copyright{
+        max-width: 80%;
+        margin: auto;
+    }
+    }
+
+
